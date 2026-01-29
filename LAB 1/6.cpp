@@ -1,8 +1,11 @@
-#include "iostream"
+#include <iostream>
 using namespace std;
-void greetUser(){
-    cout<<"Hello User!"<<endl;
+
+void greetUser() {
+    cout << "Welcome to the OOP Lab!";
 }
-int main(){
+
+int main() {
     greetUser();
+    return 0;
 }
