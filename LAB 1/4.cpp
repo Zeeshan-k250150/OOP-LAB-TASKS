@@ -1,10 +1,11 @@
-#include "iostream"
+#include <iostream>
 using namespace std;
 
-int main(){
-    cout<<"The size of integer is "<<sizeof(int)<<" bytes"<<endl;
-    cout<<"The size of float is "<<sizeof(float)<<" bytes"<<endl;
-    cout<<"The size of double is "<<sizeof(double)<<" bytes"<<endl;
-    cout<<"The size of bool is "<<sizeof(bool)<<" bytes"<<endl;
-    cout<<"The size of char is "<<sizeof(char)<<" bytes"<<endl;
+int main() {
+    cout << "Size of int: " << sizeof(int) << " bytes\n";
+    cout << "Size of float: " << sizeof(float) << " bytes\n";
+    cout << "Size of double: " << sizeof(double) << " bytes\n";
+    cout << "Size of char: " << sizeof(char) << " bytes\n";
+    cout << "Size of bool: " << sizeof(bool) << " bytes\n";
+    return 0;
 }
